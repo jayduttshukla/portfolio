@@ -1,0 +1,215 @@
+@media screen and (max-width:770px)
+{
+.logo img
+{
+height:46px;
+width:50px;
+position:relative;
+top:44;
+left:3;
+}
+.nav-hold
+{
+width:90%;
+max-width:1000px;
+margin:0 auto;
+}
+.nav-list
+{
+height:auto;
+
+width:100%;
+}
+.nav-list li
+{
+height:auto;
+width:100%;
+position:relative;
+top:-6;
+margin:-2 auto;
+}
+
+.nav-bar
+{
+overflow:hidden;
+margin-top:0;
+}
+.nav-list li a
+{
+padding:20px 15px;
+}
+.logo img
+{
+height:45px;
+width:50px;
+position:relative;
+top:40;
+}
+.tgl
+{
+margin:0;
+padding:0;
+position:relative;
+overflow:hidden;
+}
+.nav-menu{
+float:right;
+padding:50px 10px 0 15;
+color:white;
+display:block;
+}
+.navimg
+{
+-webkit-transform: rotate(-90deg);
+transition:all 0.5s;
+}
+#home h1
+{
+position:relative;
+top:-30;
+padding:5px 0;
+width:300px;
+overflow:hidden;
+font-family:Raleway,josefin sans;
+color:#17000c;
+font-size:30px;
+font-weight:700;
+border-bottom:2px solid #17000c;
+border-top:2px solid #17000c;
+letter-spacing:2;
+}
+#home span
+{
+position:relative;
+top:-30;
+}
+.info
+{
+padding:20px 20px;
+text-align:left;
+display:inline-block;
+margin:1% 1%;
+display:inline-block;
+position:relative;
+top:-20;
+height:auto;
+width:250px;
+}
+.we,.edu,.we1,.edu1
+{
+width:500px;
+
+}
+}
+@media screen and (max-width:500px)
+{
+#home
+{
+
+height:30%;
+}
+
+.nav-list
+{
+height:auto;
+
+width:100%;
+}
+
+.nav-list li
+{
+height:auto;
+width:100%;
+}
+.nav-bar
+{
+overflow:hidden;
+margin-top:0;
+}
+
+.nav-list li a
+{
+padding:20px 15px;
+}
+.logo img
+{
+height:45px;
+width:50px;
+position:relative;
+top:40;
+}
+.tgl
+{
+margin:0;
+padding:0;
+position:relative;
+
+overflow:hidden;
+}
+.nav-menu{
+float:right;
+padding:50px 10px 0 15;
+
+color:white;
+
+display:block;
+}
+.navimg
+{
+-webkit-transform: rotate(-90deg);
+transition:all 0.5s;
+}
+#home h1
+{
+position:relative;
+top:-30;
+padding:5px 0;
+width:300px;
+overflow:hidden;
+font-family:Raleway,josefin sans;
+color:#17000c;
+font-size:30px;
+font-weight:700;
+border-bottom:2px solid #17000c;
+border-top:2px solid #17000c;
+letter-spacing:2;
+}
+#home span
+{
+position:relative;
+top:-30;
+}
+.info
+{
+padding:20px 20px;
+text-align:left;
+display:inline-block;
+margin:1% 1%;
+display:inline-block;
+position:relative;
+top:-20;
+height:auto;
+width:250px;
+}
+.we,.edu,.we1,.edu1
+{
+width:300px;
+
+}
+.port,.trippe,.artify,.aus,.busnc
+{
+overflow:hidden;
+
+margin:8px;
+height:230;
+width:300;
+display:inline-block;
+}
+#work  img
+{
+height:230;
+width:300;
+transition:all 1s ease;
+z-index:0;
+}
+}

@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin: 0px 600px;
+    padding: 10px 0px;
+} 
+
+
+
+/* for index.html */
+
+#container1{
+    background-image:url("img/bg.jpg");
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height:100%;
+    border-bottom: 3px solid #54447B;
+}
+
+.nav{
+    margin:10px 0px 30px 0px;
+    padding:10px 200px;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin:0px 20px;
+    padding: 10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.nav ul li:hover{
+    list-style-type: none;
+    display: inline;
+    margin:0px 20px;
+    padding: 10px 20px;
+    background: rgba(148,221,77,0.5);
+    border-radius: 5px;
+}
+
+.nav ul li.active{
+    list-style-type: none;
+    display: inline;
+    margin:0px 20px;
+    padding: 10px 20px;
+    border-bottom:2px solid white;
+    border-radius: 10px;
+}
+
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.textcontent{
+    margin-top:80px;
+    padding: 10px 900px 10px 150px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+ }
+
+.details{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.knowmore{
+    color: white;
+    background:rgba(84,68,123,0.6);
+    width: 200px;
+    height:50px;
+    padding: 10px 10px;
+    border:none;
+    border-radius: 6px;
+    cursor:pointer;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left:60px;
+}
+
+span {
+    display: block;
+    font-size: 60px;
+}
+
+.text1{
+     color: white;
+     font-family: 'Amatic SC', cursive;
+     font-size:50px;
+     margin: 100px 0px 0px 130px;
+}
+
+
+#container2{
+    background-image:url("img/bg4.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height:100%;
+
+}
+
+.text2{
+     color: white;
+     font-family: 'Amatic SC', cursive;
+     font-size:50px;
+     margin-left: 130px; 
+     padding-top: 100px; 
+}
+
+.details2{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin-left: 130px; 
+    padding: 10px 900px 10px 130px;
+}
+
+/* For login.html */
+
+.login{
+    
+    background:#0E2F56;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.inputbox{
+    background: white;
+    opacity:0.8;
+    color: blue;
+    margin: 20px 500px;
+    outline: none;
+    height:40px;
+    width: 400px; 
+    border-radius: 6px;
+    border:none;
+    font-size:20px;
+    padding:10px 80px;
+}
+
+.btn{
+    background: #C2BE53;
+    opacity: 0.4;
+    width: 100px;
+    height:30px;
+    padding: 5px 20px;
+    border:none;
+    border-radius: 6px;
+    margin: 0px 600px;
+}
+
+
+
+
+footer{
+    background: white;
+    height: 50px;
+    width: 100%;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0;
+}

@@ -176,6 +176,8 @@ text-align:center;
 .nav-pills
 {	
 text-align:center;
+	display: flex;
+	justify-content: center;align-items: center;
 }
 .nav-pills li a
 {
@@ -183,7 +185,16 @@ font-size:20px;
 color:black;
 border:1px solid rgba(0,0,0,0.5);
 }
-
+.hovereffect
+{
+	max-width: 350px;
+	height: 227px;
+	margin-bottom: 20px;
+}
+.hovereffect img
+{
+	max-width: 350px;
+}
 
 /* ------------------------------ Gallery -------------------------- */
 .mt
