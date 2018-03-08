@@ -15,4 +15,11 @@ margin-bottom:30px;
 		    top: 0px;
 		margin: 0px;
 	}
+	.nav-pills
+{	
+text-align:center;
+	display: flex;
+	justify-content: center;align-items: center;
+	flex-direction: column;
+}
 }
