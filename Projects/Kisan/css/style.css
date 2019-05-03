@@ -1563,7 +1563,6 @@ h6 {
 
 
 /* Custom */
-
 .col-half-offset{
   margin-left:1%
 }
@@ -1582,7 +1581,7 @@ h6 {
     max-height: 48px;
 }
 .contact-form {
-  background: #2d2b46;
+  background: #3e1e44;
   background-size: cover;
   padding: 40px 0px;
 }
@@ -1646,7 +1645,7 @@ color: #fff;
 #header
 {
   height: 100px;
-  background: rgba(235, 241, 250,0.5);
+  background: rgba(235, 241, 250,0.7);
   display: flex;
   align-items: center;
 }
@@ -1678,7 +1677,19 @@ li
 {
 
 }
-#intro .intro-info h2 span
+#intro .intro-info h2 > span
 {
 color: #1e1916;
 }
+.main-nav a
+{
+  font-size: 16px;
+}
+div.nowrap{
+  white-space: nowrap;
+}
+
+@media (max-width: 991px)
+{#header {
+    height: 70px;
+}}
