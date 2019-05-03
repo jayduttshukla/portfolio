@@ -1645,8 +1645,10 @@ color: #fff;
 }
 #header
 {
-  height: 120px;
+  height: 100px;
   background: rgba(235, 241, 250,0.5);
+  display: flex;
+  align-items: center;
 }
 #clients img {
   max-width: 70%;
@@ -1654,4 +1656,29 @@ color: #fff;
 li
 {
   list-style-type: none;
+}
+#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+  background: rgba(65, 62, 102, 0.7);
+  color: #fff;
+  padding: 6px 25px;
+
+}
+#portfolio #portfolio-flters li
+{
+  background: #1bb1dc;
+  color: #fff;
+
+  border-radius: 5px;
+
+}
+#intro .intro-info h2 {
+  color: #8b5c93;
+}
+#intro .intro-info h2
+{
+
+}
+#intro .intro-info h2 span
+{
+color: #1e1916;
 }
